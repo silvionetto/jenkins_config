@@ -52,7 +52,7 @@
   </builders>
   <publishers>
     <hudson.plugins.cobertura.CoberturaPublisher plugin="cobertura@1.10">
-      <coberturaReportFile>ws/target/site/cobertura/coverate.xml</coberturaReportFile>
+      <coberturaReportFile>target/site/cobertura/coverate.xml</coberturaReportFile>
       <onlyStable>false</onlyStable>
       <failUnhealthy>false</failUnhealthy>
       <failUnstable>false</failUnstable>
