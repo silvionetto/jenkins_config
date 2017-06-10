@@ -43,6 +43,7 @@
   <builders>
     <hudson.tasks.Maven>
       <targets>clean package install</targets>
+      <mavenName>Maven_3_3_9</mavenName>
       <usePrivateRepository>false</usePrivateRepository>
       <settings class="jenkins.mvn.DefaultSettingsProvider"/>
       <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
